@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AGK Server", "AGK Server\AGK Server.vcxproj", "{8C76CA23-833F-426C-B902-FF9A7FEE9170}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B668349E-6889-4115-9507-6552C13C7DA7} = {B668349E-6889-4115-9507-6552C13C7DA7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AGK Client", "AGK Client\AGK Client.vcxproj", "{93B7EB10-8793-4373-BE5D-AEE2FC9B73CB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B668349E-6889-4115-9507-6552C13C7DA7} = {B668349E-6889-4115-9507-6552C13C7DA7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AGK Common", "AGK Common\AGK Common.vcxproj", "{B668349E-6889-4115-9507-6552C13C7DA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C76CA23-833F-426C-B902-FF9A7FEE9170}.Debug|x64.ActiveCfg = Debug|x64
+		{8C76CA23-833F-426C-B902-FF9A7FEE9170}.Debug|x64.Build.0 = Debug|x64
+		{8C76CA23-833F-426C-B902-FF9A7FEE9170}.Debug|x86.ActiveCfg = Debug|x64
+		{8C76CA23-833F-426C-B902-FF9A7FEE9170}.Debug|x86.Build.0 = Debug|x64
+		{8C76CA23-833F-426C-B902-FF9A7FEE9170}.Release|x64.ActiveCfg = Release|x64
+		{8C76CA23-833F-426C-B902-FF9A7FEE9170}.Release|x64.Build.0 = Release|x64
+		{8C76CA23-833F-426C-B902-FF9A7FEE9170}.Release|x86.ActiveCfg = Release|x64
+		{8C76CA23-833F-426C-B902-FF9A7FEE9170}.Release|x86.Build.0 = Release|x64
+		{93B7EB10-8793-4373-BE5D-AEE2FC9B73CB}.Debug|x64.ActiveCfg = Debug|x64
+		{93B7EB10-8793-4373-BE5D-AEE2FC9B73CB}.Debug|x64.Build.0 = Debug|x64
+		{93B7EB10-8793-4373-BE5D-AEE2FC9B73CB}.Debug|x86.ActiveCfg = Debug|x64
+		{93B7EB10-8793-4373-BE5D-AEE2FC9B73CB}.Debug|x86.Build.0 = Debug|x64
+		{93B7EB10-8793-4373-BE5D-AEE2FC9B73CB}.Release|x64.ActiveCfg = Release|x64
+		{93B7EB10-8793-4373-BE5D-AEE2FC9B73CB}.Release|x64.Build.0 = Release|x64
+		{93B7EB10-8793-4373-BE5D-AEE2FC9B73CB}.Release|x86.ActiveCfg = Release|x64
+		{93B7EB10-8793-4373-BE5D-AEE2FC9B73CB}.Release|x86.Build.0 = Release|x64
+		{B668349E-6889-4115-9507-6552C13C7DA7}.Debug|x64.ActiveCfg = Debug|x64
+		{B668349E-6889-4115-9507-6552C13C7DA7}.Debug|x64.Build.0 = Debug|x64
+		{B668349E-6889-4115-9507-6552C13C7DA7}.Debug|x86.ActiveCfg = Debug|Win32
+		{B668349E-6889-4115-9507-6552C13C7DA7}.Debug|x86.Build.0 = Debug|Win32
+		{B668349E-6889-4115-9507-6552C13C7DA7}.Release|x64.ActiveCfg = Release|x64
+		{B668349E-6889-4115-9507-6552C13C7DA7}.Release|x64.Build.0 = Release|x64
+		{B668349E-6889-4115-9507-6552C13C7DA7}.Release|x86.ActiveCfg = Release|Win32
+		{B668349E-6889-4115-9507-6552C13C7DA7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7AE35CE-0068-4942-81BB-CB45B4594BD4}
+	EndGlobalSection
+EndGlobal
