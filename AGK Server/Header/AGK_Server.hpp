@@ -72,14 +72,6 @@ public:
 			}
 			break;
 
-			case 999:
-			{
-				m_OutputLog.push_back("999 Sent from client");
-				m_OutputLog.push_back(agk::GetNetworkMessageFromIP(iMessageID));
-				m_OutputLog.push_back(std::to_string(agk::GetNetworkMessageFromPort(iMessageID)));
-			}
-			break;
-
 			}
 
 			agk::DeleteNetworkMessage(iMessageID);

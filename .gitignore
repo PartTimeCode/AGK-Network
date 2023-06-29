@@ -361,3 +361,11 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+Final/
+x64/
+AGK Client/Debug64
+AGK Server/Debug64
+AGK Client/Release64
+AGK Server/Release64
+
